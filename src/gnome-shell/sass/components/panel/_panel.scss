@@ -16,7 +16,7 @@ $on-color: theme-color.$on-panel;
 $button-hpadding: 12px;
 
 @if theme.$compact {
-  $button-hpadding: 8px;
+  $button-hpadding: 4px;
 }
 
 #panel {
@@ -129,7 +129,7 @@ $button-hpadding: 12px;
       padding: 0 4px;
 
       @if gnome-shell.$version >= 40 {
-        margin: 0 4px;
+        margin: 0;
       }
     }
 
