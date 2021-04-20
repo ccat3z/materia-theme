@@ -131,7 +131,9 @@
   }
 }
 
-.popup-menu-icon {
+// Apply popup-menu-icon only if in popup-menu-item.
+// Some extensions (e.g. argos) use popup-menu-icon in the panel button.
+.popup-menu-item .popup-menu-icon {
   icon-size: 16px;
   color: theme-color.hint(theme-color.$on-surface);
 }
